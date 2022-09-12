@@ -6,7 +6,7 @@ pipeline{
     }
 
     agent any
-#checkinout the sourcecode from github
+
     stages {
        
        stage("checkout source")  {
@@ -15,7 +15,7 @@ pipeline{
          }
 
        }
-#building the image (make sure you install docker pipeline plugin)
+
        stage("Build image") {
          steps{
            script{
@@ -24,7 +24,7 @@ pipeline{
            
          }
        }
-#pushing the image to dockerhub(make sure you have configured the creds in jenkins)
+
 
        stage("pushing image") {
           environment {
