@@ -1,4 +1,5 @@
 # project
+PLEASE REFER ""project file""' in the same repo for images.
 project
 Deploying application on kubecluster
 Setup a docker server
