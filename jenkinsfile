@@ -11,7 +11,7 @@ pipeline{
        
        stage("checkout source")  {
          steps{
-           git 'https://github.com/vi18la/project_cliff.git'
+           git 'https://github.com/vi18la/project.git'
          }
 
        }
